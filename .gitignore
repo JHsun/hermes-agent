@@ -36,7 +36,9 @@ agent-browser/
 # Private keys
 *.ppk
 *.pem
+*.key
 privvy*
+credentials*
 images/
 __pycache__/
 hermes_agent.egg-info/
@@ -45,6 +47,12 @@ testlogs
 
 # CLI config (may contain sensitive SSH paths)
 cli-config.yaml
+
+# Logs
+*.log
+
+# Database files
+*.db
 
 # Skills Hub state (lives in ~/.hermes/skills/.hub/ at runtime, but just in case)
 skills/.hub/
