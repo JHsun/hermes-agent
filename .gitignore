@@ -40,6 +40,10 @@ agent-browser/
 *.key
 privvy*
 credentials*
+secrets*
+
+# IDE
+.idea/
 images/
 __pycache__/
 hermes_agent.egg-info/
@@ -72,6 +76,12 @@ web/public/ds-assets/
 # Release script temp files
 .release_notes.md
 mini-swe-agent/
+
+# Build output
+build/
+
+# Rust artifacts (defensive)
+/target/
 
 # Nix
 .direnv/
